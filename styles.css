@@ -1,0 +1,239 @@
+/* ---- Layout ---- */
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: bolder;
+} 
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+
+header .name {
+    font-size: 25px;
+    color: black;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 10px 10px  50px 10px;
+    padding: 0;
+    width: Auto;
+    text-align: center;
+}
+
+header img {
+    width: 80%;
+}
+
+header li a {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+header li:last-child {
+    border-bottom: none;
+}
+
+header {
+    background-color: #dbf3ff;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px 10px 60px 10px;
+    border: 0;
+    margin: 0;
+}
+
+ 
+/* ---- Section Styles ---- */
+
+ #portfolio {
+    text-align: center;
+    padding: 40px 0 20px 0; 
+}
+
+
+.card {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.contact {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+/* ---- Footer Syles ---- */
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 20px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.bottom {
+    display: none;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+
+/* ---- Tablet Layout ---- */
+
+@media screen and (min-width: 768px) {
+
+ header ul {
+     display: flex;
+     justify-content: center;
+ }
+
+
+ header li a {
+     background-color: #dbf3ff;
+     text-transform: uppercase;
+     width: auto;
+     text-decoration: none;
+     color: black;
+ }
+
+.info {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    text-align: left;
+}
+
+.card {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 353px;
+    justify-content: space-evenly;
+}
+
+.contact {
+    width: 100%;
+}
+
+
+.top {
+    display: none;
+}
+
+
+.bottom {
+    display: inline-block;
+    margin-left: 20px;
+    }
+
+}
+
+
+/* ---- Desktop ---- */
+
+@media screen and (min-width: 1024px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 3em;
+    }
+
+
+    .primary-nav, .primary-nav li {
+            width: initial;
+            margin-bottom: 0;
+    }
+
+
+    .card {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 313px;
+        padding: 0;
+        align-content: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
